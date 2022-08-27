@@ -1,0 +1,44 @@
+{
+  "name": "eslint-config-mr1upmachine",
+  "version": "0.0.1",
+  "description": "ESLint config that details Mr1upMachine's personal style guide",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./typescript": "./typescript.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mr1upMachine/eslint-config-mr1upmachine.git"
+  },
+  "keywords": [
+    "config",
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "mr1upmachine",
+    "styleguide"
+  ],
+  "author": "Sean Hale <sean@mr1upmachine.com> (https://mr1upmachine.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mr1upMachine/eslint-config-mr1upmachine/issues"
+  },
+  "homepage": "https://github.com/Mr1upMachine/eslint-config-mr1upmachine#readme",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@typescript-eslint/eslint-plugin": {
+      "optional": true
+    },
+    "@typescript-eslint/parser": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "prettier": "~2.7.1"
+  }
+}
